@@ -1,0 +1,72 @@
+#about{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+#about .content,
+#about .image{
+  display: flex;
+  flex-direction: column;
+  gap:3px;
+  justify-content: center;
+ 
+  width: 50%;
+}
+
+#about .image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(C:\Users\User\Desktop\zooshi\8f458bf9-02e2-40ee-b4f4-b6b5d0450c1a.png);
+}
+
+.img1{
+ margin-top: 40px;
+}
+h3{
+  color: gray;
+  font-size: 25px;
+
+}
+h1{
+  color: black;
+  font-size: 45px;
+}
+p{
+  font-size: 20px;
+}
+
+.content{
+  font-family:  sans-serif;
+  align-items: start;
+}
+
+.image{
+  position: relative;
+  
+}
+.img2{
+  position: absolute;
+  width: 500px;
+  animation-name: img;
+  animation-duration: 2.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+
+  
+}
+
+@keyframes img {
+  from {
+    transform: scale(65%);
+  }
+
+  to {
+    transform: scale(80%);
+  }
+}

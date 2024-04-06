@@ -1,0 +1,49 @@
+#footer{
+    background-color: #70b85f;
+    margin-top: 100px;
+    border-radius: 100% 100% 0 0;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 100px;
+}
+.p1{
+    margin-left: 40%;
+    color: white;
+    margin-top: 20px;
+}
+.e1{
+    display: flex;
+}
+.email{
+    margin-top: 20px;
+    font-size: 50px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 30%;
+    color: #70b85f;
+    background-color: #70b85f;
+    position: relative;
+
+}
+button{
+    border-radius: 30px;
+    border: 1px solid rgb(204, 201, 201);
+    color: #70b85f;
+    position: absolute;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-left: 30%;
+}
+.ii1{
+    padding: 20px;
+    color: white;
+    
+
+}

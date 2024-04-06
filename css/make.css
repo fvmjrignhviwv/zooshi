@@ -1,0 +1,36 @@
+#make{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color:rgb(179, 176, 176);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ic{
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+}
+.ic01{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    top: 40px;
+}
+.ic:hover{
+    border: 1px solid rgb(49, 133, 49);
+    
+}

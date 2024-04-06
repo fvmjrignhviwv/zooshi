@@ -1,0 +1,22 @@
+#event{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+p{
+    font-size: 15px;
+}
+ .won{
+  position: relative;
+ }
+.button{
+    border: none ;
+    border-radius: 50%;
+    padding: 35px;
+    color: #4b9434;
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+} 
