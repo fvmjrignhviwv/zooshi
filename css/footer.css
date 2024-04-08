@@ -2,6 +2,7 @@
     background-color: #70b85f;
     margin-top: 100px;
     border-radius: 100% 100% 0 0;
+   
 }
 .logo{
     text-align: center;
@@ -10,12 +11,14 @@
     margin-top: 100px;
 }
 .p1{
-    margin-left: 40%;
+    margin-left: 35%;
     color: white;
     margin-top: 20px;
 }
 .e1{
     display: flex;
+    position: relative;
+
 }
 .email{
     margin-top: 20px;
@@ -29,21 +32,41 @@
     position: relative;
 
 }
-button{
+ .e1 button{
     border-radius: 30px;
     border: 1px solid rgb(204, 201, 201);
     color: #70b85f;
     position: absolute;
+    right: 40%;
 }
 .icon{
     display: flex;
     gap: 20px;
     text-align: center;
     margin-left: 30%;
+    margin-top: 40px;
 }
 .ii1{
     padding: 20px;
     color: white;
-    
+}
+.logos{
+    display: flex;
+    margin-top: -260px;
+}
+.right1{
+    margin-left: 680px;
+}
 
+.left1{
+    width: 300px;
+   margin-left: 40px;
+    
+}
+
+.footer2{
+    text-align: center;
+    color: white;
+    font-family:  sans-serif;
+    margin-bottom: 30px;
 }
